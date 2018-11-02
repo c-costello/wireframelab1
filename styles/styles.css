@@ -1,11 +1,14 @@
 *{
-  outline: 1px solid black;
+  /* outline: 1px solid black; */
   font-family: sans-serif;
 }
+
 body{
-  width: 100%;
+  width: 960px;
   position: relative;
-  height: 
+  margin-bottom: 1500px;
+  padding: 15px;
+  
 }
 header {
   width: 100%;
@@ -13,6 +16,7 @@ header {
   position: relative;
   margin-top: 10px;
   margin-bottom: 10px;
+  background-color: grey;
 }
 header img {
   position: absolute;
@@ -138,8 +142,5 @@ button {
   overflow: auto; 
 }
 
-footer {
-  height: 100px;
-  width: 100%;
-}
+
 
