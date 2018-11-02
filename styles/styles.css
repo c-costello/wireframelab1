@@ -17,7 +17,12 @@ nav {
   left: 300px;
   width: 760px;
 }
-
+a {
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+  
+}
 li {
   position: absolute;
 }
