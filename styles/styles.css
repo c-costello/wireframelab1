@@ -1,146 +1,102 @@
-*{
-  /* outline: 1px solid black; */
-  font-family: sans-serif;
+body {
+
 }
 
-body{
-  width: 960px;
-  position: relative;
-  margin-bottom: 1500px;
-  padding: 15px;
-  
-}
-header {
-  width: 100%;
+header{
   height: 70px;
-  position: relative;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  width: 100%;
   background-color: grey;
 }
-header img {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-}
 
+header img {
+  margin-left:100px;
+}
 nav {
   position: absolute;
-  left: 200px;
   top: 0px;
-  text-align: center;
+  left: 300px;
   width: 760px;
+}
+a {
+  color: white;
+  text-decoration: none;
   font-family: sans-serif;
+  
+}
+li {
+  position: absolute;
 }
 
-nav ul {
+li:first-child {
+  top: 30px;
+  left: 72px;
+  width: 100px;
+  text-align: center;
+}
+li:nth-child(2) {
+  top: 30px;
+  left: 244px;
+  width: 100px;
+  text-align: center;
+}
+li:nth-child(3) {
+  top: 30px;
+  left: 416px;
+  width: 100px;
+  text-align: center;
+}
+li:nth-child(4) {
+  top: 30px;
+  left: 588px;
+  width: 100px;
+  text-align: center;
+}
+main {
+  padding-top: 30px;
+  padding-bottom:30px;
+  padding-left: 100px;
+  background-color: rgb(235, 235, 235);
+}
+
+main section:first-child{
+  margin-bottom: 30px;
+}
+main section:nth-child(2) {
+  margin-bottom: 30px;
+}
+
+main section:nth-child(2) img:first-child {
+  margin-right: 30px;
+}
+main section:nth-child(2) img:nth-child(2) {
+  margin-right: 30px;
+}
+
+#sectionheading {
   position: relative;
-
-}
- nav li {
-  float: left;
-  position: absolute;
-  height: 35px;
- }
-
- #link1 {
- 
-  left: 40px;
-  /* top: 30px; */
-  text-align: left;
-  width: 190px;
- }
- #link2 {
- 
-  left: 230px;
-  /* top: 30px; */
-  text-align: left;
-  width: 190px;
- }
- #link3 {
- 
-  left: 420px;
-  /* top: 30px; */
-  text-align: left;
-  width: 190px;
- }
- #link4 {
- 
-  left: 610px;
-  /* top: 30px; */
-  text-align: left;
-  width: 150px;
- }
-
- a{
-   position: relative;
-   top: 30px;
- }
- main {
-   position: relative;
- }
-
- #heroimg img {
-   margin-top: 10px;
-   margin-bottom: 10px;
- }
-
- #subheader {
-   position: relative;
-   width: 960px;
- }
-
-#subheader img {
-  position: absolute;
-  margin-top: 10px;
-  margin-bottom: 10px;
-
- }
-
-#sh1 {
-  position: absolute;
-  left:0px;
- } 
-
-#sh2 {
-  position: absolute;
-  left:330px;
 }
 
-#sh3 {
-  position: absolute;
-  left: 660px;
-}
-
-#sectionheading{
-  position:relative;
-  top: 400px;
-  padding: 10px;
-} 
-
-#sectionheading img {
-  position: absolute;
-  left: 0px;
-}
-
-h3 {
-  font-size: 30px;
-}
 #sectionheading section {
+  font-family: sans-serif; 
   position: absolute;
-  left: 520px;
-  width: 440px;
+  top: 0px;
+  left: 510px;
+  width: 450px;
   height: 400px;
 }
 
-button {
-  margin: 5px;
+h3 {
+  font-size: 24px;
 }
 
 #sectionheading section p {
-  height: 340px;
-  overflow: auto; 
+  padding: 10px;
+  overflow: scroll;
+  height:334px;
 }
-
-
-
+footer {
+  height: 70px;
+  width: 100%;
+  background-color: grey;
+  padding-left: 100px;
+}
